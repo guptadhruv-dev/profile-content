@@ -1,6 +1,7 @@
 ---
 label: Education
 rank: 2
+icon: school
 calendar: ::icon{"Calendar Today"}
 leaderboard: ::icon{"Leaderboard"}
 books: ::icon{"Library Books"}

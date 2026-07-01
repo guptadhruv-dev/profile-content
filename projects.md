@@ -1,10 +1,11 @@
 ---
 label: Projects
 rank: 4
+icon: rocket_launch
 rocket: ::icon{"Rocket Launch"}
 ---
 
-# {{rocket}} Projects
+# {{rocket}} Projects  
 ## Research & Machine Learning
 
 ::columns

@@ -1,16 +1,30 @@
 ---
 label: Overview
 rank: 1
-work: ::icon{"Work"}
+icon: home
+network_intelligence: ::icon{"Network Intelligence"}
+database: ::icon{"Database"}
+deployed_code_update: ::icon{"Deployed Code Update"} 
 ---
 
 # Hey, I'm Dhruv!
-## {{work}} I'm a Software Engineer & Data Scientist
 
+I excel in Software Engineering & Applied Data Science!
 
-> <div style = "font-size:20px"> <b>My Philosophy</b> <br>
-> Measuring a project by its lines of code is like measuring an aircraft by its weight.
-> </div>
+Professionally:
+- 4 YoE Experience as an SDE, Data Analyst, iOS Developer and Data Engineer.
+- Co-founded and led my own IT Consutancy to success in the highly competitive market of Pune, India ($50K+ revenue/first year, bootstrapped) while pursuing my undergrad - RootKit Consultancy Services LLP. (yes, I chose that name intentionally). 
+- One of my clients hired me after to look after and upgrade their backend infrastructure - Innoeversity.
+- Developed and deployed many (15+) apps across iOS, Android and Web. Often, designed as well. All this in the era before AI for coding went big.
+- Worked with various clients from various domains like Education, Law, Events and Government. 
+
+Academically:
+- Undergrad in Computational Mathematics & Statistics, Grad in Applied Data Science
+- Won awards for research in Machine Learning, recognized by IT Directors & founders, recommened by clients and collegagues.
+
+### {{deployed_code_update}} Software Engineering 
+### {{network_intelligence}} Machine Learning
+### {{database}} Data Science
 
 
 ::toggle { default = "open" }

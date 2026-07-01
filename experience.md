@@ -1,6 +1,7 @@
 ---
 label: Experience
 rank: 3
+icon: work
 calendar: ::icon{"Calendar Today"}
 pin: ::icon{"Location On"}
 ---
