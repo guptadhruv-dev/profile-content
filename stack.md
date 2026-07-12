@@ -2,38 +2,66 @@
 label: Tech Stack
 rank: 5
 icon: handyman
-handyman: ::icon{"Handyman"}
+handyman: :icon{name="Handyman"}
 ---
 
 # {{handyman}} Tech Stack
 
-::card{"Languages", icon="code"}
-::badge{"Python"} ::badge{"JavaScript"} ::badge{"TypeScript"} ::badge{"SQL"} ::badge{"Swift"} ::badge{"Java"} ::badge{"Rust"} ::badge{"C++"} ::badge{"R"} ::badge{"MATLAB"} 
-::badge{"HTML"} ::badge{"CSS"}
-::end
+::space{size="md"}
 
-::card{"Libraries & Frameworks", icon="extension"}
-::badge{"React"} ::badge{"Node.js"} ::badge{"Next.js"} ::badge{"Tailwind CSS"} ::badge{"Redux"} ::badge{"GraphQL"} ::badge{"Vite"} ::badge{"Pandas"} ::badge{"NumPy"} ::badge{"FastAPI"} ::badge{"Django"} ::badge{"SwiftUI"} ::badge{"Streamlit"} ::badge{"Matplotlib"}
-::end
+:::card{title="Languages" icon="code"}
 
-::card{"ML Tools", icon="neurology"}
-::badge{"PyTorch"} ::badge{"TensorFlow"} ::badge{"Scikit-learn"} ::badge{"Keras"} ::badge{"Hugging Face"} ::badge{"CoreML"}
-::end
 
-::card{"Databases", icon="storage"}
-::badge{"PostgreSQL"} ::badge{"MongoDB"} ::badge{"Redis"} ::badge{"MySQL"} ::badge{"DynamoDB"} ::badge{"AWS Redshift"} ::badge{"SQL Server"} ::badge{"Elasticsearch"} ::badge{"Neo4j"} ::badge{"Firestore"} ::badge{"CoreData"}
-::end
+:badge{label="Python"} :badge{label="JavaScript"} :badge{label="TypeScript"} :badge{label="SQL"} :badge{label="Swift"} :badge{label="Java"} :badge{label="Rust"} :badge{label="C++"} :badge{label="R"} :badge{label="MATLAB"}
+:badge{label="HTML"} :badge{label="CSS"}
+:::
 
-::card{"Data Infrastructure", icon="schema"}
-::badge{"Snowflake"} ::badge{"BigQuery"} ::badge{"Spark"} ::badge{"Kafka"} ::badge{"Airflow"} ::badge{"Firebase"}
-::end
+::space{size="sm"}
 
-::card{"Cloud & DevOps", icon="cloud"}
-::badge{"AWS"} ::badge{"GCP"} ::badge{"Azure"} 
-::badge{"AWS S3"} ::badge{"AWS EC2"} ::badge{"AWS Lambda"} ::badge{"AWS CloudFormation"} 
-::badge{"Docker"} ::badge{"Kubernetes"} ::badge{"Linux"} ::badge{"Git"} ::badge{"Azure DevOps"}
-::end
+:::card{title="Libraries & Frameworks" icon="extension"}
 
-::card{"Tools", icon="devices"}
-::badge{"Postman"} ::badge{"Tableau"} ::badge{"Power BI"}  ::badge{"Webflow"} ::badge{"Power Query"} ::badge{"Figma"} ::badge{"Framer"} ::badge{"Xcode"}
-::end
+
+:badge{label="React"} :badge{label="Node.js"} :badge{label="Next.js"} :badge{label="Tailwind CSS"} :badge{label="Redux"} :badge{label="GraphQL"} :badge{label="Vite"} :badge{label="Pandas"} :badge{label="NumPy"} :badge{label="FastAPI"} :badge{label="Django"} :badge{label="SwiftUI"} :badge{label="Streamlit"} :badge{label="Matplotlib"}
+:::
+
+::space{size="sm"}
+
+:::card{title="ML Tools" icon="neurology"}
+
+
+:badge{label="PyTorch"} :badge{label="TensorFlow"} :badge{label="Scikit-learn"} :badge{label="Keras"} :badge{label="Hugging Face"} :badge{label="CoreML"}
+:::
+
+::space{size="sm"}
+
+:::card{title="Databases" icon="storage"}
+
+
+:badge{label="PostgreSQL"} :badge{label="MongoDB"} :badge{label="Redis"} :badge{label="MySQL"} :badge{label="DynamoDB"} :badge{label="AWS Redshift"} :badge{label="SQL Server"} :badge{label="Elasticsearch"} :badge{label="Neo4j"} :badge{label="Firestore"} :badge{label="CoreData"}
+:::
+
+::space{size="sm"}
+
+:::card{title="Data Infrastructure" icon="schema"}
+
+
+:badge{label="Snowflake"} :badge{label="BigQuery"} :badge{label="Spark"} :badge{label="Kafka"} :badge{label="Airflow"} :badge{label="Firebase"}
+:::
+
+::space{size="sm"}
+
+:::card{title="Cloud & DevOps" icon="cloud"}
+
+:badge{label="AWS Lambda"} :badge{label="Amazon EC2"} :badge{label="Amazon S3"} :badge{label="AWS CloudFormation"} 
+:badge{label="AWS Fargate"} :badge{label="Amazon EventBridge"} :badge{label="Amazon Bedrock"}
+:badge{label="Google Cloud Platform"} :badge{label="Microsoft Azure"} :badge{label="Docker"} :badge{label="Kubernetes"} :badge{label="Linux"} :badge{label="Git"}
+:::
+
+::space{size="sm"}
+
+:::card{title="Tools" icon="devices"}
+
+
+:badge{label="Postman"} :badge{label="Tableau"} :badge{label="Power BI"} :badge{label="Webflow"} :badge{label="Power Query"} :badge{label="Figma"} :badge{label="Framer"} :badge{label="Xcode"}
+:::
+

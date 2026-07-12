@@ -2,99 +2,68 @@
 label: Projects
 rank: 4
 icon: rocket_launch
-rocket: ::icon{"Rocket Launch"}
+rocket: :icon{name="Rocket Launch" size="2.5rem"}
 ---
 
-# {{rocket}} Projects  
-## Research & Machine Learning
+# {{rocket}} Projects
 
-::columns
-::col
+::space{size="md"}
+## Machine Learning & Inference Engineering
 
-::card{"Parking Occupancy Supervision Study", icon="visibility", href="https://github.com/guptadhruv-dev/parking-occupancy-supervision-study"}
-A supervision-curve study tracing accuracy from zero labels to full supervision across 493,000 parking-space crops on an A100 cluster. The model surfaced annotation errors in a decade-old benchmark, which meant the reported accuracy was pessimistic and the model was right. 99.75% at full supervision, 92.7% with only 100 labels per class.
+::space{size="md"}
+:::card{title="Parking Occupancy Supervision Study" icon="visibility" href="https://github.com/guptadhruv-dev/parking-occupancy-supervision-study"}
 
-::badge{"PyTorch"} ::badge{"Computer Vision"} ::badge{"Semi-Supervised Learning"} ::badge{"ResNet"}
-::end
 
-::card{"Multi-Modal Computer Vision Pipeline", icon="hub"}
+A supervision-curve study tracing accuracy from zero labels to full supervision across 493,654 parking-space crops on an A100 cluster. The model surfaced annotation errors in a decade-old benchmark, which meant the reported accuracy was pessimistic and the model was right. 99.75% at full supervision, 92.7% with only 100 labels per class.
+
+
+:badge{label="PyTorch"} :badge{label="Computer Vision"} :badge{label="Semi-Supervised Learning"} :badge{label="ResNet"}
+:::
+
+::space{size="sm"}
+:::card{title="Multi-Modal Computer Vision Pipeline" icon="hub"}
+
 An end-to-end pipeline over 40,000+ images across five visual conditions, reaching 92% classification accuracy. PCA cut the feature space from 50,000 to 200 dimensions while keeping 95% of the variance, ResNet-50 transfer learning lifted clustering accuracy 35%, and a custom 3.2M-parameter CNN hit 0.08 validation loss within 50 epochs.
 
-::badge{"PyTorch"} ::badge{"ResNet-50"} ::badge{"PCA"} ::badge{"t-SNE"} ::badge{"UMAP"} ::badge{"K-Means"} ::badge{"Transfer Learning"}
-::end
+:badge{label="PyTorch"} :badge{label="ResNet-50"} :badge{label="PCA"} :badge{label="t-SNE"} :badge{label="UMAP"} :badge{label="K-Means"} :badge{label="Transfer Learning"}
+:::
 
-::end
+::space{size="sm"}
+:::card{title="Permutation-Invariant Vision" icon="function" href="https://github.com/guptadhruv-dev/permutation-invariant-vision"}
 
-::col
-
-::card{"Permutation-Invariant Vision", icon="function", href="https://github.com/guptadhruv-dev/permutation-invariant-vision"}
 Permutation invariance built from symmetric functions, a mathematical guarantee rather than a hope. I proved it by collapsing three shuffled input variants onto a single point in embedding space, with PCA plots showing the geometry of the guarantee across nine trained models.
 
-::badge{"PyTorch"} ::badge{"Model Architecture"} ::badge{"Computer Vision", color="info"} ::badge{"PCA"}
-::end
+:badge{label="PyTorch"} :badge{label="Model Architecture"} :badge{label="Computer Vision"} :badge{label="PCA"}
+:::
 
-::card{"Tessa", icon="auto_awesome"}
+::space{size="sm"}
+:::card{title="Tessa" icon="auto_awesome"}
+
+
 A Model Steerability Platform on iOS (native) for Google PaLM 2, exposing every inference-time decoding parameter through a custom UI so faculty, mentors, and students could feel model behavior shift in real time. Backed by an empirical study of how those parameters govern language generation. 85% query resolution rate, and winner of the MIT-WPU Research Excellence Award.
 
-::badge{"Swift"} ::badge{"iOS (native)"} ::badge{"Google PaLM 2"} ::badge{"NLP"} ::badge{"LLMs"}
-::end
 
-::end
+:badge{label="Swift"} :badge{label="iOS (native)"} :badge{label="Google PaLM 2"} :badge{label="NLP"} :badge{label="LLMs"} :badge{label="Inference Engineering"}
+:::
 
-::end
-
-
+::space{size="lg"}
 ## Product & Platforms
 
-::columns
+::space{size="md"}
+:::card{title="MIT-WPU Connect" icon="school"}
 
-::col
 
-::card{"MIT-WPU Connect", icon="school"}
 The flagship campus application for MIT World Peace University, built with real-time updates and interactive features that lifted student engagement. Earned a formal Letter of Appreciation from the Director of IT and recognition from founder Dr. Vishwanath Karad and Mr. Rahul Karad.
 
-::badge{"Swift"} ::badge{"iOS (native)"} ::badge{"Android"} ::badge{"Full-Stack"}
-::end
 
-::end
+:badge{label="Swift"} :badge{label="iOS (native)"} :badge{label="Android"} :badge{label="Java"} :badge{label="Kotlin"} :badge{label="XML"} :badge{label="React"} :badge{label="JS"} :badge{label="TS"} 
+:::
 
-::col
+::space{size="sm"}
+:::card{title="NLC Bharat 2023 Infrastructure" icon="event"}
 
-::card{"NLC Bharat 2023 Infrastructure", icon="event"}
+
 The complete IT infrastructure for the university's largest event, the National Legislature Conference Bharat 2023: a custom event-management application with real-time participant tracking, built and run for a major institutional conference.
-
-::badge{"iOS (native)"} ::badge{"Real-time Systems"} ::badge{"Backend"}
-::end
-
-::end
-
-::end
+:::
 
 
-## More on GitHub
-::columns
-::col
-
-::card{"Transcriber", icon="graphic_eq", href="https://github.com/guptadhruv-dev/transcriber"}
-An audio and speech transcription pipeline.
-
-::badge{"Python"} ::badge{"Speech-to-Text"}
-::end
-::end
-
-::col
-::card{"Optical Music Recognition", icon="music_note", href="https://github.com/guptadhruv-dev/optical-music-recognition"}
-An OMR system that turns sheet music into machine-readable notation.
-
-::badge{"Python"} ::badge{"Computer Vision"} ::badge{"OMR"}
-::end
-::end
-
-::col
-::card{"Skies Across Cultures", icon="public", href="https://github.com/guptadhruv-dev/skies-across-cultures"}
-A cross-cultural data study.
-
-::badge{"Python"} ::badge{"Data Analysis"}
-::end
-::end
-::end
